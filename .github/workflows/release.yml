@@ -1,0 +1,35 @@
+name: Package course release
+
+on:
+    push:
+        tags:
+            - "v*"
+
+permissions:
+    contents: write
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out tagged source
+              uses: actions/checkout@v4
+
+            - name: Package Computer-Graphics folder
+              run: |
+                  zip -r -X Computer-Graphics.zip Computer-Graphics \
+                      -x "Computer-Graphics/.sharepoint-sync-state.json"
+                  zip -T Computer-Graphics.zip
+                  zipinfo -1 Computer-Graphics.zip | grep -Fxq "Computer-Graphics/"
+                  if zipinfo -1 Computer-Graphics.zip | grep -Fxq "Computer-Graphics/.sharepoint-sync-state.json"; then
+                      echo "SharePoint sync metadata must not be included in the release archive." >&2
+                      exit 1
+                  fi
+
+            - name: Create GitHub release and upload archive
+              env:
+                  GH_TOKEN: ${{ github.token }}
+              run: >-
+                  gh release create "${GITHUB_REF_NAME}" Computer-Graphics.zip
+                  --title "Computer Graphics ${GITHUB_REF_NAME}"
+                  --generate-notes
