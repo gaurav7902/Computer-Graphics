@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Computer Graphics NCSD302 | Lecture and Lab Resources</title>
+        <meta
+            name="description"
+            content="Browse Computer Graphics (NCSD302) lecture PDFs, course files, and interactive graphics lab source material from IIT (ISM) Dhanbad." />
+        <meta
+            name="keywords"
+            content="Computer Graphics, NCSD302, IIT ISM Dhanbad, lecture notes, transformations, rasterisation, clipping, Z-buffer, ray tracing" />
+        <meta
+            name="robots"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta
+            name="googlebot"
+            content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="theme-color" content="#f2f6f2" />
+        <link rel="canonical" href="__SITE_URL__" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Computer Graphics NCSD302" />
+        <meta
+            property="og:title"
+            content="Computer Graphics NCSD302 | Lecture and Lab Resources" />
+        <meta
+            property="og:description"
+            content="A searchable course library of Computer Graphics lectures, PDFs, and interactive lab source material." />
+        <meta property="og:url" content="__SITE_URL__" />
+        <meta property="og:locale" content="en_IN" />
+        <meta
+            property="og:image"
+            content="__SITE_URL__Resources/Activity%204.2/previews/08_colour_models.png" />
+        <meta
+            property="og:image:alt"
+            content="Interactive RGB, HSV, and HSL colour model demonstration" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1280" />
+        <meta property="og:image:height" content="800" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Computer Graphics NCSD302 | Lecture and Lab Resources" />
+        <meta
+            name="twitter:description"
+            content="Browse lecture PDFs, course files, and interactive graphics lab resources." />
+        <meta
+            name="twitter:image"
+            content="__SITE_URL__Resources/Activity%204.2/previews/08_colour_models.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+            rel="stylesheet" />
+        <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+        <link rel="stylesheet" href="assets/site.css" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Course",
+                "name": "Computer Graphics (NCSD302)",
+                "courseCode": "NCSD302",
+                "description": "Course lectures, PDFs, and practical resources covering computer graphics from raster images and geometric transformations to visibility, animation, interaction, and ray tracing.",
+                "inLanguage": "en",
+                "url": "__SITE_URL__",
+                "provider": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Indian Institute of Technology (ISM) Dhanbad",
+                    "url": "https://www.iitism.ac.in/"
+                }
+            }
+        </script>
+        <script src="assets/site.js" defer></script>
+    </head>
+    <body>
+        <a class="skip-link" href="#main">Skip to course resources</a>
+        <header class="site-header">
+            <a
+                class="brand"
+                href="#top"
+                aria-label="Computer Graphics course home">
+                <span class="brand-mark" aria-hidden="true"
+                    ><span></span><span></span><span></span><span></span
+                ></span>
+                <span class="brand-name"
+                    >Computer Graphics<span
+                        >NCSD302 · IIT (ISM) Dhanbad</span
+                    ></span
+                >
+            </a>
+            <nav class="primary-nav" aria-label="Course sections">
+                <a href="#lectures">Lectures</a>
+                <a href="#activities">Activities</a>
+                <a href="#course-files">Course files</a>
+            </nav>
+        </header>
+
+        <main id="main">
+            <section class="intro" id="top" aria-labelledby="page-title">
+                <div class="intro-copy">
+                    <p class="course-label">
+                        <span class="signal-dot" aria-hidden="true"></span>
+                        Course resource library
+                    </p>
+                    <h1 id="page-title">Computer<br />Graphics</h1>
+                    <p class="intro-summary">
+                        Lecture material and practical resources for the ideas
+                        behind images on a screen, from the first pixel to a
+                        complete rendered scene.
+                    </p>
+                    <div
+                        class="quick-counts"
+                        aria-label="Course library contents">
+                        <p><strong>28</strong><span>lecture PDFs</span></p>
+                        <p><strong>2</strong><span>lab activities</span></p>
+                        <p><strong>10</strong><span>interactive demos</span></p>
+                    </div>
+                </div>
+                <figure class="feature-figure">
+                    <img
+                        src="Computer-Graphics/Resources/Activity%204.2/previews/08_colour_models.png"
+                        alt="The graphics lab showing RGB, HSV, and HSL colour controls, a hue wheel, and an RGB cube"
+                        width="1280"
+                        height="800" />
+                    <figcaption>
+                        <span>From the lab</span> Colour models · RGB, HSV, HSL
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section
+                class="library-section"
+                id="lectures"
+                aria-labelledby="lectures-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">Course material</p>
+                        <h2 id="lectures-title">Lecture library</h2>
+                    </div>
+                    <p class="section-note">
+                        Open a PDF in your browser or download it for offline
+                        study.
+                    </p>
+                </div>
+
+                <div class="library-tools">
+                    <search
+                        class="resource-search"
+                        aria-label="Search course resources">
+                        <label for="resource-search-input"
+                            >Find a resource</label
+                        >
+                        <input
+                            id="resource-search-input"
+                            type="search"
+                            placeholder="Search topics, units, or files" />
+                    </search>
+                    <div class="filter-control">
+                        <label for="group-filter">Show</label>
+                        <select id="group-filter">
+                            <option value="all">All resources</option>
+                            <option value="foundations">Foundations</option>
+                            <option value="unit-2">
+                                Unit 2 · Representation
+                            </option>
+                            <option value="unit-3">
+                                Unit 3 · Rendering pipeline
+                            </option>
+                            <option value="unit-4">Unit 4 · Colour</option>
+                            <option value="unit-5">Unit 5 · Visibility</option>
+                            <option value="unit-6">Unit 6 · Animation</option>
+                            <option value="unit-7">Unit 7 · Modelling</option>
+                            <option value="unit-8">Unit 8 · Interaction</option>
+                            <option value="unit-9">Unit 9 · Ray tracing</option>
+                            <option value="activities">Lab activities</option>
+                            <option value="course-files">Course files</option>
+                        </select>
+                    </div>
+                    <p
+                        class="result-count"
+                        id="result-count"
+                        role="status"
+                        aria-live="polite"></p>
+                </div>
+
+                <p class="no-results" id="no-results" hidden>
+                    No resources match that search. Try another topic or choose
+                    “All resources”.
+                </p>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="foundation-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">00—01</span>
+                        <div>
+                            <h3 id="foundation-title">Foundations</h3>
+                            <p>
+                                Rendering, image devices, and the course
+                                landscape
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="foundations"
+                            data-keywords="course introduction computer graphics ncsd302 syllabus overview">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/0.0%20Introduction%20to%20the%20Course.pdf"
+                                ><span class="resource-title"
+                                    >Introduction to the Course</span
+                                ><span class="resource-meta"
+                                    >Lecture 0.0 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="foundations"
+                            data-keywords="computer graphics rendering pipeline">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/1.1%20Introduction%20to%20Computer%20Graphics%20and%20Rendering.pdf"
+                                ><span class="resource-title"
+                                    >Introduction to Computer Graphics and
+                                    Rendering</span
+                                ><span class="resource-meta"
+                                    >Lecture 1.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="foundations"
+                            data-keywords="raster image display framebuffer">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/1.2%20Raster%20Images%20and%20Graphics%20Devices.pdf"
+                                ><span class="resource-title"
+                                    >Raster Images and Graphics Devices</span
+                                ><span class="resource-meta"
+                                    >Lecture 1.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-2-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">02</span>
+                        <div>
+                            <h3 id="unit-2-title">Object representation</h3>
+                            <p>How curves, lines, and surfaces are described</p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-2"
+                            data-keywords="objects geometry modeling">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/2.1%20Object%20Representation%20Fundamentals.pdf"
+                                ><span class="resource-title"
+                                    >Object Representation Fundamentals</span
+                                ><span class="resource-meta"
+                                    >Lecture 2.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-2"
+                            data-keywords="lines curves geometry">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/2.2%20Representing%20Lines%20and%20Curves%20%E2%80%93%20Part%201.pdf"
+                                ><span class="resource-title"
+                                    >Representing Lines and Curves · Part
+                                    1</span
+                                ><span class="resource-meta"
+                                    >Lecture 2.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-2"
+                            data-keywords="lines curves geometry">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/2.3%20Representing%20Lines%20and%20Curves%20%E2%80%93%20Part%202.pdf"
+                                ><span class="resource-title"
+                                    >Representing Lines and Curves · Part
+                                    2</span
+                                ><span class="resource-meta"
+                                    >Lecture 2.3 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-2"
+                            data-keywords="lines curves geometry">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/2.4%20Representing%20Lines%20and%20Curves%20%E2%80%93%20Part%203.pdf"
+                                ><span class="resource-title"
+                                    >Representing Lines and Curves · Part
+                                    3</span
+                                ><span class="resource-meta"
+                                    >Lecture 2.4 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-2"
+                            data-keywords="surfaces meshes geometry">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/2.5%20Representing%20Surfaces.pdf"
+                                ><span class="resource-title"
+                                    >Representing Surfaces</span
+                                ><span class="resource-meta"
+                                    >Lecture 2.5 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-3-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">03</span>
+                        <div>
+                            <h3 id="unit-3-title">The rendering pipeline</h3>
+                            <p>
+                                Transforms, cameras, clipping, visibility, and
+                                pixels
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-3"
+                            data-keywords="transform transformations matrices">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/3.1%20Introduction%20To%20Transforms.pdf"
+                                ><span class="resource-title"
+                                    >Introduction to Transforms</span
+                                ><span class="resource-meta"
+                                    >Lecture 3.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-3"
+                            data-keywords="view camera projection perspective orthographic">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/3.2%20Viewing%20and%20Projection.pdf"
+                                ><span class="resource-title"
+                                    >Viewing and Projection</span
+                                ><span class="resource-meta"
+                                    >Lecture 3.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-3"
+                            data-keywords="clipping cohen sutherland polygon">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/3.3%20Clipping.pdf"
+                                ><span class="resource-title">Clipping</span
+                                ><span class="resource-meta"
+                                    >Lecture 3.3 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-3"
+                            data-keywords="rendering illumination shading pipeline">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/3.4%20Graphics%20Rendering.pdf"
+                                ><span class="resource-title"
+                                    >Graphics Rendering</span
+                                ><span class="resource-meta"
+                                    >Lecture 3.4 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-3"
+                            data-keywords="scan conversion rasterization pixels dda bresenham">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/3.5%20Scan%20Conversion.pdf"
+                                ><span class="resource-title"
+                                    >Scan Conversion</span
+                                ><span class="resource-meta"
+                                    >Lecture 3.5 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-4-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">04</span>
+                        <div>
+                            <h3 id="unit-4-title">Colour and display</h3>
+                            <p>
+                                Colour spaces, display behaviour, and colour
+                                reproduction
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-4"
+                            data-keywords="colour color rgb hsv hsl gamma display">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/4.1%20Colour%20Models%20and%20Display%20Considerations.pdf"
+                                ><span class="resource-title"
+                                    >Colour Models and Display
+                                    Considerations</span
+                                ><span class="resource-meta"
+                                    >Lecture 4.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-5-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">05</span>
+                        <div>
+                            <h3 id="unit-5-title">
+                                Visibility and rasterisation
+                            </h3>
+                            <p>
+                                Depth, hidden surfaces, triangle coverage, and
+                                transparency
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="visibility back face culling hidden surface">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.1%20Visibility%20Problem%20and%20Back-Face%20Culling.pdf"
+                                ><span class="resource-title"
+                                    >Visibility Problem and Back-Face
+                                    Culling</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="painters algorithm z-buffer zbuffer depth">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.2%20Painters%20Algorithm%20and%20Z-Buffers.pdf"
+                                ><span class="resource-title"
+                                    >Painters Algorithm and Z-Buffers</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="triangle rasterisation rasterization barycentric coordinates">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.3%20Triangle%20Rasterisation%20and%20Barycentric%20Coordinates.pdf"
+                                ><span class="resource-title"
+                                    >Triangle Rasterisation and Barycentric
+                                    Coordinates</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.3 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="depth interpolation attributes perspective correct">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.4%20Interpolating%20Depth%20and%20Surface%20Attributes.pdf"
+                                ><span class="resource-title"
+                                    >Interpolating Depth and Surface
+                                    Attributes</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.4 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="visibility transparency alpha">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.5%20Extended%20Visibility%20and%20Transparency.pdf"
+                                ><span class="resource-title"
+                                    >Extended Visibility and Transparency</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.5 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-5"
+                            data-keywords="integrated solid object rasteriser rasterizer">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/5.6%20Integrated%20Solid-Object%20Rasteriser.pdf"
+                                ><span class="resource-title"
+                                    >Integrated Solid-Object Rasteriser</span
+                                ><span class="resource-meta"
+                                    >Lecture 5.6 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-6-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">06</span>
+                        <div>
+                            <h3 id="unit-6-title">Animation and texture</h3>
+                            <p>Motion over time and surface detail</p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-6"
+                            data-keywords="animation movement keyframes">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/6.1%20Computer%20Animation.pdf"
+                                ><span class="resource-title"
+                                    >Computer Animation</span
+                                ><span class="resource-meta"
+                                    >Lecture 6.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-6"
+                            data-keywords="texture mapping surface">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/6.2%20Texture%20Mapping%20and%20Related%20Techniques.pdf"
+                                ><span class="resource-title"
+                                    >Texture Mapping and Related
+                                    Techniques</span
+                                ><span class="resource-meta"
+                                    >Lecture 6.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-7-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">07</span>
+                        <div>
+                            <h3 id="unit-7-title">
+                                Modelling and procedural worlds
+                            </h3>
+                            <p>
+                                Scene structure, hierarchies, and generated
+                                geometry
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-7"
+                            data-keywords="hierarchical modelling modeling scene graph">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/7.1%20Hierarchical%20Modelling%20and%20Scene%20Graphs.pdf"
+                                ><span class="resource-title"
+                                    >Hierarchical Modelling and Scene
+                                    Graphs</span
+                                ><span class="resource-meta"
+                                    >Lecture 7.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-7"
+                            data-keywords="fractal procedural generation geometry">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/7.2%20Fractal%20Geometry%20and%20Procedural%20Generation.pdf"
+                                ><span class="resource-title"
+                                    >Fractal Geometry and Procedural
+                                    Generation</span
+                                ><span class="resource-meta"
+                                    >Lecture 7.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-8-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">08</span>
+                        <div>
+                            <h3 id="unit-8-title">
+                                Interaction and graphics systems
+                            </h3>
+                            <p>
+                                Camera control, object selection, and graphics
+                                hardware
+                            </p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-8"
+                            data-keywords="event driven interaction camera control">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/8.1%20Event-Driven%20Interaction%20and%20Camera%20Control.pdf"
+                                ><span class="resource-title"
+                                    >Event-Driven Interaction and Camera
+                                    Control</span
+                                ><span class="resource-meta"
+                                    >Lecture 8.1 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-8"
+                            data-keywords="selection picking manipulation interaction">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/8.2%20Selection%20Picking%20and%20Object%20Manipulation.pdf"
+                                ><span class="resource-title"
+                                    >Selection, Picking, and Object
+                                    Manipulation</span
+                                ><span class="resource-meta"
+                                    >Lecture 8.2 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-8"
+                            data-keywords="graphics software gpu hardware">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/8.3%20Graphics%20Software%20and%20GPU.pdf"
+                                ><span class="resource-title"
+                                    >Graphics Software and GPU</span
+                                ><span class="resource-meta"
+                                    >Lecture 8.3 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+
+                <section
+                    class="catalog-section"
+                    data-catalog-section
+                    aria-labelledby="unit-9-title">
+                    <header class="unit-heading">
+                        <span class="unit-index">09</span>
+                        <div>
+                            <h3 id="unit-9-title">Ray tracing</h3>
+                            <p>Tracing light paths to build an image</p>
+                        </div>
+                    </header>
+                    <ul class="resource-list">
+                        <li
+                            class="catalog-entry"
+                            data-index-group="unit-9"
+                            data-keywords="ray tracing light rendering">
+                            <a
+                                class="resource-link"
+                                target="_blank"
+                                rel="noopener"
+                                href="Computer-Graphics/Lectures/9%20Ray%20Tracing.pdf"
+                                ><span class="resource-title">Ray Tracing</span
+                                ><span class="resource-meta"
+                                    >Lecture 9 · PDF</span
+                                ><span class="resource-open">Open PDF</span></a
+                            >
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+            <section
+                class="activities-section"
+                id="activities"
+                aria-labelledby="activities-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">Practical work</p>
+                        <h2 id="activities-title">Lab activities</h2>
+                    </div>
+                    <p class="section-note">
+                        The interactive applications use Pygame-CE and run on
+                        your computer, not inside the browser.
+                    </p>
+                </div>
+                <div class="activity-grid">
+                    <article
+                        class="activity-item catalog-entry"
+                        data-index-group="activities"
+                        data-keywords="framebuffer primitives aliasing supersampling pygame activity 1.3">
+                        <p class="activity-number">Activity 1.3</p>
+                        <h3>Raster images and display</h3>
+                        <p>
+                            Three small programs explore framebuffer pixels,
+                            drawing primitives, and aliasing with supersampling.
+                        </p>
+                        <ul class="activity-links">
+                            <li>
+                                <a
+                                    href="Computer-Graphics/Resources/Activity%201.3/README.md"
+                                    >Read the activity guide</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Computer-Graphics/Resources/Activity%201.3/01_framebuffer.py"
+                                    >Framebuffer example</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Computer-Graphics/Resources/Activity%201.3/02_primitives.py"
+                                    >Drawing primitives example</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Computer-Graphics/Resources/Activity%201.3/03_aliasing.py"
+                                    >Aliasing example</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    href="Computer-Graphics/Resources/Activity%201.3/requirements.txt"
+                                    >Dependencies</a
+                                >
+                            </li>
+                        </ul>
+                    </article>
+                    <article
+                        class="activity-item activity-feature catalog-entry"
+                        data-index-group="activities"
+                        data-keywords="transformations viewing clipping illumination shading z-buffer scan conversion colour pipeline activity 4.2">
+                        <img
+                            src="Computer-Graphics/Resources/Activity%204.2/previews/10_pipeline_final.png"
+                            alt="Activity 4.2 graphics lab showing the final rasterised scene in its Objects to Pixels demo"
+                            width="1280"
+                            height="800"
+                            loading="lazy" />
+                        <div class="activity-feature-copy">
+                            <p class="activity-number">Activity 4.2</p>
+                            <h3>From objects to pixels</h3>
+                            <p>
+                                Ten interactive demos connect transformations,
+                                viewing, clipping, illumination, visibility,
+                                scan conversion, colour, and the rendering
+                                pipeline.
+                            </p>
+                            <ul class="activity-links">
+                                <li>
+                                    <a
+                                        href="Computer-Graphics/Resources/Activity%204.2/README.md"
+                                        >Read the activity guide</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="Computer-Graphics/Resources/Activity%204.2/main.py"
+                                        >View the application entry point</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        href="Computer-Graphics/Resources/Activity%204.2/requirements.txt"
+                                        >Dependencies</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section
+                class="course-files-section"
+                id="course-files"
+                aria-labelledby="course-files-title">
+                <div class="section-heading">
+                    <div>
+                        <p class="section-kicker">Reference</p>
+                        <h2 id="course-files-title">Course files</h2>
+                    </div>
+                    <p class="section-note">
+                        Core documents for planning and practice.
+                    </p>
+                </div>
+                <ul class="resource-list course-files-list">
+                    <li
+                        class="catalog-entry"
+                        data-index-group="course-files"
+                        data-keywords="syllabus course outline topics">
+                        <a
+                            class="resource-link"
+                            target="_blank"
+                            rel="noopener"
+                            href="Computer-Graphics/Syllabus.pdf"
+                            ><span class="resource-title">Course syllabus</span
+                            ><span class="resource-meta"
+                                >PDF · Topics and course structure</span
+                            ><span class="resource-open">Open PDF</span></a
+                        >
+                    </li>
+                    <li
+                        class="catalog-entry"
+                        data-index-group="course-files"
+                        data-keywords="numerical question bank practice problems exercises">
+                        <a
+                            class="resource-link"
+                            target="_blank"
+                            rel="noopener"
+                            href="Computer-Graphics/Computer_Graphics_Numerical_Question_Bank_1.pdf"
+                            ><span class="resource-title"
+                                >Numerical question bank</span
+                            ><span class="resource-meta"
+                                >PDF · Practice problems</span
+                            ><span class="resource-open">Open PDF</span></a
+                        >
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <dialog
+            class="pdf-viewer"
+            id="pdf-viewer"
+            aria-labelledby="pdf-viewer-title">
+            <header class="pdf-viewer-header">
+                <h2 id="pdf-viewer-title">PDF preview</h2>
+                <div class="pdf-viewer-actions">
+                    <a id="pdf-viewer-new-tab" target="_blank" rel="noopener"
+                        >Open in new tab</a
+                    >
+                    <button id="pdf-viewer-close" type="button">Close</button>
+                </div>
+            </header>
+            <iframe class="pdf-viewer-frame" title="PDF preview"></iframe>
+        </dialog>
+
+        <footer class="site-footer">
+            <p>Computer Graphics · NCSD302</p>
+            <a class="back-to-top" href="#top">Back to top</a>
+        </footer>
+    </body>
+</html>
